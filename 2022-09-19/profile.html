@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="googlebot" content="noindex,nofollow" />
+    <meta name="google" content="translate" />
+    <meta name="robots" content="noindex,nofollow" />
+
+    <title>Profile</title>
+</head>
+<body>
+    <h1>Profile</h1>
+    <form>
+        <div>
+            <label for="fullname">Fullname</label>
+            <input type="text" name="fullname" id="fullname" placeholder="First Last" />
+        </div>
+        <div>
+            <label for="useremail">Email</label>
+            <input type="email" name="email" id="useremail" />
+        </div>
+        <div>
+            <label for="bio">Biography</label>
+            <textarea name="bio" id="bio" placeholder="Introduce yourself"></textarea>
+        </div>
+        <div>
+            <label for="age">Your age</label>
+            <input type="number" name="age" id="age" />
+        </div>
+        <div>
+            <h4>Favorite Food</h4>
+            <ul>
+                <li>
+                    <label><input type="checkbox" value="Cake" name="favfoods[]" /> Cake</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" value="Chocolate" name="favfoods[]" /> Chocolate</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" value="Pizza" name="favfoods[]" /> Pizza</label>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h4>Music Categories</h4>
+            <ul>
+                <li>
+                    <label><input type="checkbox" value="Classical" name="music[]" /> Classical</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" value="Rock" name="music[]" /> Rock</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" value="Lofi" name="music[]" checked /> Lofi</label>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h4>Gender</h4>
+            <ul>
+                <li>
+                    <label><input type="radio" value="Male" name="gender" /> Male</label>
+                </li>
+                <li>
+                    <label><input type="radio" value="Female" name="gender" /> Female</label>
+                </li>
+                <li>
+                    <label><input type="radio" value="complicated" name="gender" /> It's complicated</label>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="">Choose one</option>
+                <option value="JP">Japan</option>
+                <option value="PH" selected>Philippines</option>
+                <option value="US">USA</option>
+                <option value="FR">France</option>
+                <option value="KR">Korea</option>
+                <option value="UK">United Kingdom</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Save Profile" />
+        </div>
+    </form>
+</body>
+</html>
