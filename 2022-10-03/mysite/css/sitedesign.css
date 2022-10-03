@@ -1,0 +1,26 @@
+body {
+    background: #ececec;
+    color: #333333;
+    font-size: 18px;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+h1 {
+    font-size: 100px;
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    list-style: none;       /* Removes the bullet points */
+    padding-left: 0;        /* Removes the space where the bullets points used to be */
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    background: #5ABDE2;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
