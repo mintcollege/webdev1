@@ -1,0 +1,40 @@
+/*
+ _                             _____  _____ _____
+| |                           /  __ \/  ___/  ___|
+| |     ___  __ _ _ __ _ __   | /  \/\ `--.\ `--.
+| |    / _ \/ _` | '__| '_ \  | |     `--. \`--. \
+| |___|  __/ (_| | |  | | | | | \__/\/\__/ /\__/ /
+\_____/\___|\__,_|_|  |_| |_|  \____/\____/\____/
+
+This is my test css file.
+
+*/
+
+/* Tag selector */
+div {
+    color: green;
+
+    /* Arial font stack that I'm testing. */
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+/* ID selector */
+#usermike {
+    color: blue;
+    font-size: 24px;
+}
+
+#usersarah {
+    color: orange;
+}
+
+#userben {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Class selector */
+.boldital {
+    font-weight: bold;
+    font-style: italic;
+}

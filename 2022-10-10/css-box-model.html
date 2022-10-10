@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>CSS Box Model</title>
+    <style>
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        #wrapper {
+            width: 960px;
+            margin: 0 auto;
+            /*margin: 0 auto 0 auto;*/
+        }
+        #learn {
+            /* Order: top, right, bottom, left */
+            padding: 10px 0 0 10px; /* inside the bounding box */
+            border: 2px solid #5ABDE2; /* outside the bounding box */
+            margin: 10px 0;   /* outside the bounding box */
+        }
+    </style>
+</head>
+<body>
+
+<div id="wrapper">
+    <h1>This will have default margin</h1>
+    <p>Top content</p>
+    <div id="learn">LEARN HTML/CSS</div>
+    <div>Bottom content</div>
+</div>
+
+</body>
+</html>
