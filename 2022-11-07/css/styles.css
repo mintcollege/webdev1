@@ -1,0 +1,12 @@
+
+html, body {background: #D3E2C7; color: #333333; font-family: Arial, Verdana, Helvetica, sans-serif;}
+
+#sitewrapper {width:960px; margin:0 auto;}
+#header {background: #ececec; height: 30px; margin:10px 0;}
+#subhead {text-align:center; margin-bottom: 30px;}
+#subhead h2, #subhead h3 {color: #55BF4E;}
+
+#content .top {margin-bottom: 40px;}
+#content .top > div, #content .bottom > div {float: left; width: 225px; margin-right: 20px;}
+#content .top > div:last-child, #content .bottom > div:last-child {margin-right:0;}
+#content h4 {font-weight: bold;}
