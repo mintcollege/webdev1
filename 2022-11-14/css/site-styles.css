@@ -39,7 +39,7 @@ p {margin-bottom:10px;}
     width:400px;
 }
 #intro a.cta {
-    display:inline-block;
+    display:block;
     width: 202px;
     height: 46px;
     background:url(../images/cta-button.png) no-repeat;
@@ -48,10 +48,10 @@ p {margin-bottom:10px;}
     font-size: 48px;
     font-weight: bold;
 }
-#intro .interactive {
-    vertical-align: middle;
-}
 #intro p.subhead {color:#AAAAAA;}
+#intro .interactive {vertical-align: middle; display:flex; align-items:center; justify-content: space-around; margin-top:30px;}
+#intro .interactive span {display:block;}
+#intro .interactive a {color: #FFFFFF;}
 
 
 
